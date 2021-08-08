@@ -1,0 +1,35 @@
+.summarizerText {
+  font-family: "sans-serif";
+  font-size: 24px;
+}
+
+h2 {
+  padding-left: 20px;
+}
+
+#summarizerForm {
+  padding-left: 20px;
+}
+
+#summarizerSubmit {
+  color: white;
+  background-color: #fa8092;
+  padding: 5px 20px;
+  border-radius: 7px;
+  margin-top: 25px;
+  font-family: "sans-serif";
+  font-size: 24px;
+}
+
+#summarizerSubmit:hover {
+  cursor: pointer;
+}
+
+#summarizerTextTitle {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #4f4f4f;
+}

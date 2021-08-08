@@ -1,0 +1,35 @@
+<html>
+<head>
+    <title>Text Summarizer</title>
+    <link rel = "stylesheet" type = "text/css" href="{{url_for('static', filename = 'styles/home.css') }}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <center>
+
+<h2 class = "summarizerTextTitle">Input Text to Summarize</h2>
+</center>
+<form class = "summarizerText" id="summarizerForm" action="{{ url_for('summarizerText') }}" method = "post">
+    <center>
+    <textarea rows="20" cols="50" id = "summarizerInput" type="text" name = "summarizer"></textarea>
+</center>
+    <br>
+    <center>
+    <select name="typeOfSummary">
+        <option value="">--Please choose an option--</option>
+        <option value="small">Small Summary</option>
+        <option value="medium">Medium Summary</option>
+        <option value="large">Large Summary</option>
+
+    </select>
+</center>
+<br>
+    <center>
+    <input id = "summarizerSubmit" type = "submit" value = "Submit">
+</center>
+</form>
+</div>
+</body>
+</html>
