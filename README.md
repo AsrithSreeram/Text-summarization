@@ -11,3 +11,6 @@ This is a Text Summarization website developed using Flask. I used the pre-train
 * Clone this repository
 * Import all dependencies (Flask and Gensim)
 * Run _flask.run_ in command line
+
+## Demo
+Link to Demo: https://drive.google.com/file/d/177MkO8YFcGwHdaCKK-8COtl5B3Nt81kP/view?usp=sharing
